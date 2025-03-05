@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  .waterlogin {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        rgba(128, 128, 128, 0.596),
+        rgba(0, 0, 0, 0.199)
+      ),
+      url("https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731860350/jiv5jtpckgpjmynznjhq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .formbag {
+    flex-direction: column;
+    width: 95%;
+
+    padding: 20px;
+    /* border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 255, 0.192),
+      rgba(128, 128, 128, 0.397)
+    );
+    color: white;
+  }
+  .input {
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+  }
+  .loginbtn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .loginbtn:active {
+    background: orange;
+    color: white;
+  }
+  .imagepic{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+  }
+}

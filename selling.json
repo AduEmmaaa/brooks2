@@ -1,0 +1,210 @@
+{
+  "Deal": [
+    {
+      "id": 2,
+      "name": "Computers",
+      "itempic": "/computers.png"
+    },
+    { "id": 3, "name": "Iphone", "itempic": "/iphones.png" },
+    { "id": 4, "name": "Repairs", "itempic": "/repair.png" },
+    { "id": 5, "name": "Androids", "itempic": "/androids.png" },
+    { "id": 6, "name": "headphone", "itempic": "/earpice.png" },
+    { "id": 7, "name": "Smart TV", "itempic": "/tv.png" }
+  ],
+  "maylike": [
+    {
+      "id": -1,
+      "name": "Balea Perfume Desodorante Rosa Blossom 0% Aluminio 150 ml",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731065008/a9gajoizsnwawomqdfz0.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730855509/vktk2jce8hvsp8xgr5og.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730855800/fgdtejtvuvygxq2eedtl.jpg",
+      "oldprice": " GH₵ 35",
+      "newprice": " GH₵   40"
+    },
+    {
+      "id": -1,
+      "name": "Mobile & computer Repair services",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730855247/gqlupxunvtpqwddmmm4b.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730855509/vktk2jce8hvsp8xgr5og.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730855800/fgdtejtvuvygxq2eedtl.jpg",
+      "oldprice": "call",
+      "newprice": "053 1306 402"
+    },
+    {
+      "id": 0,
+      "name": "Watch",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730854609/e8e1dgrp2bbcazirprmp.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730854370/uxzrer541f7lpqh1dzpg.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730854362/fsw5bxegjlztrox61105.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 1,
+      "name": "Air force Nike",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730853370/jnilwyleqhofaiw0aavo.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730837578/iesohrtr3wbegiuvorgm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730837730/hyseygaogj26i8cf58nz.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 2,
+      "name": "T-shirt sleeves",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730853521/yygd14k943mdaaler8ea.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730853695/ylgyssynpxo8apwrpmmi.jpg",
+      "img2": "/shirt1.png",
+      "oldprice": "  GH₵ 140",
+      "newprice": " GH₵ 110"
+    },
+    {
+      "id": 3,
+      "name": "Short Sleeve Fabric Shirt Embellished Non-Stretch Men Tops",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730826197/vwoshqucfoltqtcfmyuw.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": "  GH₵ 300"
+    },
+    {
+      "id": 4,
+      "name": "Mens Two Piece Knitted Button Up Short Sleeve Shirt & Shorts Co-ords",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730826549/zguwhi44gglmyuwt5ckn.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730854005/af7zt9xq59r1cljyz5ef.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730853999/shubt7wybyp5pr8zokfl.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": "  GH₵ 300"
+    },
+    {
+      "id": 5,
+      "name": "Modern and stylish",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730826794/vzstdo3wwiasrioza8vv.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": "  GH₵ 300"
+    },
+    {
+      "id": 6,
+      "name": "Coffee Table White High Gloss MDF and Glass 120 x 60 cm Rectangular Aventur Simple Living Room Table in Trendy High Gloss Varnish in White with Black Glass Top 120 cm x 60 cm",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730827186/oo1fddxbaapmjaayb67l.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 7,
+      "name": "Adidas Women Fashion Trending Running Sports Shoes Sneakers",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730827705/c2xwljgwqpsb4turlwy3.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 8,
+      "name": "AirPods",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730827895/vrpfdqivaxpztexx9mvm.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 9,
+      "name": "EarPiece",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730828067/cjzqqgnybaygkrhmwhjz.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 10,
+      "name": "Otp for Iphone",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730828081/opqyfrvrof6jnwx6gdtk.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": " GH₵ 350",
+      "newprice": "  GH₵ 300"
+    },
+    {
+      "id": 11,
+      "name": "EarPiece",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730828094/efltm0bntnetvrvq3e5h.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": "  GH₵ 140",
+      "newprice": " GH₵ 300"
+    },
+    {
+      "id": 12,
+      "name": "Blutooth",
+      "img": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730828587/bc5i8ud8br4whyso7pzz.jpg",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835612/xgrnknkkgiozwcaksmxm.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1730835617/ekedrjqywrw4rsnkgxlc.jpg",
+      "oldprice": "  GH₵ 140",
+      "newprice": " GH₵ 300"
+    }
+  ],
+  "products": [
+    { "id": 1, "name": "Iphone", "itempic": "/iphones.png" },
+    { "id": 2, "name": "Repairs", "itempic": "/repair.png" },
+    { "id": 3, "name": "Androids", "itempic": "/androids.png" },
+    { "id": 4, "name": "headphone", "itempic": "/earpice.png" },
+    { "id": 5, "name": "Smart TV", "itempic": "/tv.png" }
+  ],
+  "house": [
+    {
+      "id": 1,
+      "name": " Spacious 3-Bedroom Apartment in Amasaman Modern Living at Its Best! Top&down 1 year",
+      "location": "Amasaman",
+      "price": "4,000",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731787188/wcljvqiwj7r4be2phxae.jpg",
+      "img2": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732036251/WhatsApp_Image_2024-11-16_at_7.34.53_PM_2_it6fqp.jpg",
+      "img3": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732036236/WhatsApp_Image_2024-11-16_at_7.34.53_PM_3_wxj8qy.jpg",
+      "img4": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732037439/WhatsApp_Image_2024-11-16_at_7.34.52_PM_2_e3fttc.jpg",
+      "img5": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732037489/WhatsApp_Image_2024-11-16_at_7.34.51_PM_zfxg8u.jpg",
+      "img6": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732038044/WhatsApp_Image_2024-11-16_at_7.34.50_PM_barygo.jpg",
+      "img7": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732038452/WhatsApp_Image_2024-11-16_at_7.34.50_PM_1_n7lxkv.jpg",
+      "img8": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732039260/WhatsApp_Image_2024-11-16_at_7.34.51_PM_1_bwl7p4.jpg",
+      "img9": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732039304/WhatsApp_Image_2024-11-16_at_7.34.52_PM_1_ywndt2.jpg",
+      "img10": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1732039304/WhatsApp_Image_2024-11-16_at_7.34.52_PM_1_ywndt2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "2 bedroom only top 1 year",
+      "location": "Amasaman",
+      "price": "1,800",
+
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731788106/yyfvieu3zfc9ch86vm3q.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Chamber & hall self contain 1 year",
+      "location": "Sapieman",
+      "price": "1,000",
+
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731788805/sytcequ8wiermanix77u.jpg"
+    },
+    {
+      "id": 4,
+      "name": "2 bedroom Apartment 1 year",
+      "location": "Cocoa Board",
+      "price": "2,000",
+
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731789242/n9eb8j0gxekxlxihy9fy.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Smart TV",
+      "img1": "https://res.cloudinary.com/dzzmqi5hn/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1731462128/download_26_t78czf.jpg"
+    }
+  ],
+
+  "Item": [
+    { "name": "voltic", "quantity": 20, "price": 30 },
+    { "name": "voltic", "quantity": 20, "price": 30 }
+  ]
+}

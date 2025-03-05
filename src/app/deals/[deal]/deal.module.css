@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px) {
+  .topsection {
+    position: static;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    gap: 5px;
+  }
+
+  .topicon {
+    width: 35px;
+    height: 30px;
+    color: orange;
+    font-size: 20px;
+  }
+  .topsearh {
+    flex: 1;
+    height: 35px;
+    border-radius: 10px;
+    outline: blue;
+    border: none;
+    padding: 0 10px;
+    background: rgba(128, 128, 128, 0.164);
+  }
+  .eachproduct {
+    padding: 0 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+  }
+  .img {
+    width: 150px;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid red;
+    overflow: hidden;
+    object-fit: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .productimg {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+  }
+  .discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    background: red;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .separarte {
+    width: 100%;
+    height: 10px;
+    background: rgba(199, 192, 192, 0.192);
+  }
+  .info {
+    width: max-content;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px 0;
+    box-sizing: border-box;
+  }
+  .stars {
+    font-size: 10px;
+  }
+  .name {
+    width: max-content;
+    word-wrap: normal;
+    margin-bottom: 4px;
+  }
+  .oldp {
+    text-decoration: line-through;
+    color: red;
+    margin-bottom: 4px;
+  }
+  .cashp {
+    font-size: 16px;
+    color: rgb(110, 102, 102);
+  }
+  .install {
+    color: green;
+    font-size: 20px;
+  }
+  .inst {
+    font-size: 8px;
+    color: blue;
+  }
+  .itemname {
+    font-size: 18px;
+  }
+  .order {
+    font-size: 13px;
+    color: rgba(126, 119, 119, 0.877);
+  }
+  .instan {
+    font-size: 8px;
+    color: red;
+  }
+}

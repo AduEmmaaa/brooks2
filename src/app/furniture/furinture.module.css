@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .furinture {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .span {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+  }
+  .chat {
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

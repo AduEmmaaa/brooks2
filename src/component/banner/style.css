@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+  .sectionwraper {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+
+    z-index: 1;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 10;
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    height: 30px;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  .swiper-wrapper {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    height: 230px;
+    position: relative; /* Or another positioned value */
+    z-index: 10 !important; /* Adjust as needed */
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    border: 2px solid deeppink;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: rgba(175, 175, 218, 0.712);
+    border: 2px solid blue;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 14px;
+    font-weight: bold;
+    color: deeppink;
+  }
+  .swiper-button-next:hover:after,
+  .swiper-button-prev:hover:after {
+    color: white;
+  }
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+  .income {
+    width: 100%;
+    height: max-content;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .service {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .person {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .save {
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .selectservice {
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    text-align: center;
+    outline: none;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+    height: 35px;
+    background: #cccccc80;
+    border-radius: 5px;
+  }
+  .savebtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid orange;
+    background: #04255e;
+    color: white;
+  }
+  .time {
+    width: 100px;
+    height: 35px;
+  }
+  .timei {
+    width: inherit;
+    height: inherit;
+    padding: 5px;
+  }
+  .speialbtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  .speialbtn:active {
+    background: orange;
+  }
+}

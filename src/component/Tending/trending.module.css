@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  .trending {
+    /* background: #dad5d583; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: max-content;
+  }
+  .verytop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 10px;
+  }
+  .hotdeal {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .timecountdown {
+    color: orange;
+    font-size: 0.8rem;
+  }
+  .items {
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    overflow-x: scroll;
+  }
+
+  .itemdiv {
+    text-align: center;
+    width: 40%;
+    min-width: 28%;
+    height: 130px;
+    overflow: hidden;
+    object-fit: cover;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+  }
+  .hotdealimg {
+    width: 80%;
+    height: 100px;
+  }
+  .itemname {
+    line-height: 1;
+    font-size: 0.9rem;
+  }
+}

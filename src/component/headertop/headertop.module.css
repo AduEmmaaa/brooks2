@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+  .topbar {
+    width: 100%;
+    height: 110px;
+    background: #04255e;
+  
+  }
+  .verytop {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: #04255e;
+    color: orange;
+  }
+  .verytopleft {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  .verytopmiddle {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+  .verytopright {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  .letter {
+    font-size: 1.5em;
+  }
+  .logoword {
+    line-height: 1;
+    margin-left: -3px;
+  }
+  .logoword2 {
+    margin-left: -3px;
+    line-height: 1;
+    font-size: 9px;
+  }
+  .logoicon {
+    font-size: 1.5rem;
+  }
+  .verydown {
+    background: rgba(255, 255, 255, 0.925);
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5px;
+  }
+  .searchicon {
+    font-size: 20px;
+    color: orange;
+  }
+  .searchiconcut {
+    font-size: 30px;
+    border-radius: 50%;
+    background: orange;
+    padding: 5px;
+  }
+  .searchinput {
+    flex: 1;
+    height: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+}

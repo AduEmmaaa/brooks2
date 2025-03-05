@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+ .verytop2 {
+    width: 100%;
+    height: 50px;
+    background: #04255e;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .incomediv {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #04255e;
+    padding: 10px;
+  }
+}

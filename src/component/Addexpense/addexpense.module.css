@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .addexpensecard {
+    width: 100%;
+    height: max-content;
+  }
+
+  .form {
+    display: flex;
+    gap: 10px;
+    padding: 0 4px;
+  }
+  .input {
+    width: 70%;
+    font-size: 15px;
+    height: max-content;
+    border: none;
+    outline: blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.219);
+  }
+  .priceinput {
+    width: 30%;
+    font-size: 15px;
+    height: max-content;
+    border: none;
+    outline: blue;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.219);
+  }
+  .person {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(128, 128, 128, 0.219);
+    border: none;
+  }
+  .savebtn {
+    padding: 10px;
+    width: max-content;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    border: none;
+  }
+}

@@ -1,0 +1,119 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Daysale{
+ id  String @id @default(auto()) @map("_id") @db.ObjectId
+ name String 
+  size String
+  quantity Int
+  price Int
+  daynumber Int
+ shop String
+  monthnumber Int
+}
+
+
+
+model WaterItems{
+ id  String @id @default(auto()) @map("_id") @db.ObjectId
+ name String 
+  size String
+  quantity Int
+  price Int
+  daynumber Int
+  monthnumber Int
+  shop String
+  sold Int @default(0)
+}
+model WaterItems2{
+ id  String @id @default(auto()) @map("_id") @db.ObjectId
+ name String 
+  size String
+  quantity Int
+  price Int
+  daynumber Int
+  monthnumber Int
+  shop String
+  sold Int @default(0)
+}
+
+
+model Game {
+  id               String @id @default(auto()) @map("_id") @db.ObjectId
+  winningGift      Int
+  selectedBoxIndex Int
+  cash             Int
+  cash2            Int
+  accountbalance   Int
+  userId           String @db.ObjectId
+  user             Users   @relation(fields: [userId], references: [id])
+
+  @@map("games")
+  // Users Users[] @relation("UserGames")
+}
+
+model Users {
+  id      String @id @default(auto()) @map("_id") @db.ObjectId
+  name    String
+  email   String
+  phone   Int @unique
+
+  // games   Game[] @relation("UserGames")
+
+  @@map("users")
+  Game Game[]
+}
+
+
+
+
+
+model Expense{
+ id    String @id @default(auto()) @map("_id") @db.ObjectId
+  daynumber Int?
+expense String
+person String
+price Int?
+monthnumber Int?
+
+}
+
+
+model Passcode{
+    id    String @id @default(auto()) @map("_id") @db.ObjectId
+  passcode Int @unique
+}
+
+
+model Dec31 {
+id    String @id @default(auto()) @map("_id") @db.ObjectId
+time String
+ service String
+ person String
+ amount Int
+ daynumber Int?
+ monthnumber Int?
+}
+
+model Apoint{
+ id    String @id @default(auto()) @map("_id") @db.ObjectId
+ name String
+ phone Int        
+ date String
+ service String    
+ stylist String
+      
+
+}

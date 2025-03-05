@@ -1,0 +1,261 @@
+@media (prefers-color-scheme: dark) {
+  .page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  a.primary:hover {
+    background: var(--button-primary-hover);
+    border-color: transparent;
+  }
+
+  a.secondary:hover {
+    background: var(--button-secondary-hover);
+    border-color: transparent;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background: #dad5d557; */
+  }
+  /* .sidebar {
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background: #04255e;
+    height: 0vh;
+    transition: all 3s ease;
+  } */
+  .sidebaropen {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    background: #04255e;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+    animation: opsidebar 0.5s linear;
+  }
+
+  .newbody {
+    width: 100%;
+    height: 100vh;
+
+    /* background: radial-gradient(circle, #04255e, #000000); */
+    /* background: radial-gradient(circle, #04255e 50%, #000000ee); */
+    background: url("/bac.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .time {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #04255e88;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px 10px;
+  }
+  .one {
+    overflow: hidden;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 230px;
+    background: rgba(255, 255, 255, 0.562);
+    /* border: 1px solid #04255e; */
+  }
+  .two {
+    margin-top: 15px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    gap: 10px;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .first {
+    min-width: 30%;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.842);
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849); */
+  }
+  .first:active {
+    background: orange;
+    color: #ccc;
+  }
+
+  .img {
+    width: 100%;
+    height: 110px;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  .three {
+    overflow: hidden;
+    width: 97%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 170px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.815);
+    /* -webkit-box-shadow: 0 1px 16px -8px rgba(255, 255, 255, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(255, 255, 255, 0.849); */
+  }
+
+  .playimg {
+    width: 50px;
+    height: 40px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    line-height: 1;
+  }
+  .gamerow {
+    width: 100%;
+    height: 130px;
+    overflow-x: scroll;
+  }
+  .game1 {
+    width: 30%;
+    height: 130px;
+    border: 1px solid #04255e;
+    border-radius: 10px;
+    object-fit: cover;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+  }
+  .game1:active {
+    background: orange;
+    color: white;
+  }
+  .gamenu1 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #04255e;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .down {
+    width: 100%;
+    height: calc(100vh - 35px);
+    overflow-y: scroll;
+  }
+  .popularsearch {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    padding: 4px;
+    gap: 3px;
+    border-radius: 20px;
+    background: #cccccc73;
+    border: 1px solid #cccccc;
+  }
+  .popularsearchholder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 5px;
+  }
+
+  .head {
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .barbarimg {
+    width: 100%;
+    height: inherit;
+  }
+  .salon {
+    color: black;
+    text-align: center;
+  }
+  .support{
+    position: absolute;
+    background: rgba(253, 253, 253, 0.808);
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 4px;
+    color: green;
+    font-weight: bold;
+
+  }
+  .whatsappicon{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert();
+  }
+}
+
+@keyframes opsidebar {
+  0% {
+    width: 0%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    background: #04255e;
+    height: 0vh;
+    transition: all 3s ease;
+  }
+  100% {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    background: #04255e;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .listcontainer {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    width: 100%;
+    padding-left: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+  }
+
+  .links {
+    width: max-content;
+    margin: 0;
+    padding: 3px;
+    font-size: 12px;
+  }
+  .listname {
+    width: max-content;
+  }
+}

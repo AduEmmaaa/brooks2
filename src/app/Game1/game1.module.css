@@ -1,0 +1,362 @@
+@media screen and (max-width: 768px) {
+  .newbody {
+    padding: 1px;
+    width: 100%;
+    height: 100vh;
+    background: url("/bac.gif");
+  }
+  .header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .header {
+    width: max-content;
+    height: max-content;
+    background: rgba(255, 255, 255, 0.445);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .eachbox {
+    width: 30%;
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    border-radius: 20px;
+    height: 100px;
+    background: url("/back.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .selectedBox {
+    width: 30%;
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    border-radius: 20px;
+    height: 100px;
+    /* background: url("/back.gif"); */
+    background: blue;
+    z-index: 1000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .button {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -5px;
+    /* background: rgba(255, 255, 255, 0.685); */
+    background: red;
+    width: 50px;
+    height: max-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    color: white;
+  }
+
+  .won {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -5px;
+    background: green;
+    width: 50px;
+    height: max-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    color: white;
+  }
+
+  .playBtn:active {
+    background: orange;
+  }
+
+  .playBtn {
+    width: max-content;
+    background: linear-gradient(180deg, #4caf50, black);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    /* transition: background-color 0.3s;
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    } */
+  }
+
+  .depocard {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -40px;
+  }
+
+  .depo {
+    /* background: rgba(255, 255, 255, 0.877); */
+    background: orange;
+    max-width: max-content;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .depo1 {
+    background: rgba(153, 6, 6, 0.884);
+    color: white;
+    max-width: max-content;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+  }
+  .depo1:active {
+    background: orange;
+  }
+  .money {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    gap: 10px;
+    font-size: 24px;
+  }
+  .moneyicon {
+    font-size: 24px;
+    color: blue;
+  }
+  .moneyicon1 {
+    font-size: 24px;
+    color: white;
+  }
+
+  .loaderouter {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .loaderinside {
+    width: 80%;
+    height: 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.425);
+    overflow: hidden;
+    border: 1px solid rgba(219, 214, 214, 0.911);
+  }
+  .loader {
+    width: 100%;
+    border-radius: 20px;
+    height: inherit;
+    background: red;
+  }
+  .loader2 {
+    width: 100%;
+    height: inherit;
+    background: red;
+    border-radius: 10px;
+    animation: loading 4s linear;
+  }
+  .buttondiv {
+    /* position: absolute; */
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .table {
+    margin-top: 20px;
+    width: 98%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: max-content;
+    overflow: hidden;
+    height: 150px;
+    overflow-y: scroll;
+    background: linear-gradient(180deg, #4caf50, black);
+  }
+  .trow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    background: rgba(255, 255, 255, 0.76);
+  }
+
+  .row1 {
+    width: 100%;
+
+    /* border: 1px solid rgba(255, 0, 0, 0.432); */
+  }
+  .numwin {
+    width: 100%;
+    color: #4caf50;
+    /* border: 1px solid rgba(255, 0, 0, 0.432); */
+  }
+  .win {
+    background: white;
+  }
+
+  .history {
+    color: white;
+  }
+
+  .cashbig {
+    width: 98%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: linear-gradient(180deg, #4caf50, black);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .loginhere {
+    border: 1px solid red;
+    position: absolute;
+    width: 70%;
+    right: 10px;
+    z-index: 10;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(153, 6, 6, 0.884), black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .demologin {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .name {
+    margin-bottom: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .put {
+    font-style: italic;
+    border-radius: 3px;
+    padding: 5px;
+    background: rgba(48, 46, 46, 0.781);
+    color: white;
+    border: 1px solid rgba(202, 200, 200, 0.664);
+  }
+  .register {
+    margin-right: 4px;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    background: #4caf50;
+    border: 1px solid rgba(202, 200, 200, 0.664);
+    border-radius: 5px;
+  }
+  .login {
+    margin-right: 4px;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    background: orange;
+    border: 1px solid rgba(202, 200, 200, 0.664);
+    border-radius: 5px;
+  }
+  .deposite {
+    width: max-content;
+    height: max-content;
+    margin-right: 4px;
+    padding: 5px;
+    background: blue;
+    border: 1px solid rgba(202, 200, 200, 0.664);
+    border-radius: 5px;
+  }
+  .withdraw {
+    margin-right: 4px;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    background: orange;
+    border: 1px solid rgba(202, 200, 200, 0.664);
+    border-radius: 5px;
+  }
+  .login:active,
+  .withdraw:active {
+    background: #4caf50;
+  }
+  .register:active,
+  .deposite:active {
+    background: orange;
+  }
+}
+
+@keyframes loading {
+  0% {
+    width: 100%;
+    height: inherit;
+    background: red;
+  }
+  100% {
+    width: 1%;
+    height: inherit;
+    background: red;
+  }
+}

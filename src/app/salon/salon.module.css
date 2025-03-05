@@ -1,0 +1,450 @@
+@media screen and (max-width: 768px) {
+  .cat {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconholder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: blue;
+    /* background: rgba(255, 166, 0, 0.986); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .topcategories {
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    justify-content: center;
+    background: rgba(138, 135, 135, 0.199);
+    padding: 5px;
+  }
+  .caticon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .imageinfo {
+    min-width: 120px;
+    margin-right: 10px;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+  }
+  .img {
+    width: 120px;
+    height: 100px;
+  }
+  .info {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(138, 135, 135, 0.199);
+  }
+  .home {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  .top {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .hairspecialist {
+    margin-left: 20px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(73, 69, 69, 0.897);
+    font-style: italic;
+  }
+
+  .topicon {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .back {
+    display: flex;
+    align-items: center;
+  }
+
+  .topbanner {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+  }
+  .text {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 35px;
+    margin-bottom: auto;
+  }
+
+  .bannerimg {
+    width: 120px;
+    height: 120px;
+  }
+  .makeappoint {
+    width: 100%;
+
+    height: max-content;
+    background: blue;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  .appointementbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    margin-top: 10px;
+  }
+  .timeholder {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 10px 20px;
+  }
+  .time {
+    min-width: 150px;
+    padding: 10px;
+    background: rgb(255, 166, 0);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .available {
+    font-size: 16px;
+  }
+  .apoint {
+    border: 1px solid red;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .book {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 10px;
+  }
+  .lable {
+    font-weight: bold;
+    display: flex;
+    border: 1px solid red;
+  }
+  .input {
+    border: none;
+    padding: 4px;
+    background: rgba(128, 128, 128, 0.336);
+    border-radius: 5px;
+  }
+  .namespan {
+    font-weight: bold;
+    margin-right: 2px;
+  }
+
+  .saved {
+    width: 100%;
+    height: 30px;
+    background: #04255e;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .newbody {
+    overflow: scroll;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #04255e 50%, #000000ee);
+  }
+
+  .timebarbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #04255e;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .bababottom {
+    width: 100%;
+    height: calc(100vh - 10px);
+    overflow-y: scroll;
+  }
+  .writings {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    max-width: max-content;
+    height: max-content;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+
+  .span {
+    color: orange;
+    font-weight: 700;
+  }
+  .para {
+    font-size: 10px;
+    color: #ffffffc9;
+    font-weight: 100;
+    font-family: serif;
+  }
+  .btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid orange;
+    -webkit-box-shadow: 0 1px 20px -8px rgb(247, 247, 247);
+    box-shadow: 0 1px 20px -8px rgba(243, 243, 243, 0.945);
+  }
+  .btn:active {
+    background: orange;
+    color: #04255e;
+  }
+
+  .banerimage {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        rgba(207, 206, 206, 0.068) 5%,
+        /* Increased opacity for a smoother blend */ rgba(168, 165, 165, 0.089)
+          20%,
+        #030a18da
+      ),
+      url("https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731462439/What_s_on_-_National_Theatre_ttx5q8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .maintext {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .popularservices {
+    color: white;
+    font-size: 18px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .para2 {
+    font-size: 10px;
+    color: white;
+  }
+
+  .populaserviceshead {
+    margin-top: 20px;
+    background: linear-gradient(180deg, #04255e 20%, #000000ee);
+    padding-bottom: 20px;
+  }
+
+  .bottomdiv {
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid orange; */
+    display: flex;
+    gap: 20px 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .oneediv {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .onee {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+  }
+  .hairstyle {
+    color: orange;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .para1 {
+    color: rgb(197, 193, 193);
+    font-size: 11px;
+  }
+  .expertstylish {
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+    /* background: rgba(128, 128, 128, 0.479); */
+
+    background: linear-gradient(180deg, #04255e 20%, #000000ee);
+  }
+
+  .imagediv {
+    border: 1px solid rgba(255, 0, 0, 0.295);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: cover;
+  }
+
+  .personimg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .image {
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    width: 40%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  .personname {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .desc {
+    font-style: italic;
+    font-size: 10px;
+  }
+  .booking {
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+  }
+  .timeone {
+    color: white;
+    margin-top: 20px;
+  }
+  .li {
+    width: max-content;
+    height: max-content;
+    padding: 7px;
+    background: rgba(128, 128, 128, 0.479);
+    border-radius: 15px;
+    margin-bottom: 6px;
+  }
+  .openingtime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list {
+    list-style: none;
+  }
+  .span {
+    color: orange;
+  }
+  .date {
+    color: white;
+  }
+
+  .bookingcard {
+    width: 95%;
+    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff4f;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .datinput {
+    background: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .selectservice {
+    width: 300px;
+    height: max-content;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+  .date {
+    margin-bottom: 10px;
+  }
+  .selectservice:active {
+    background: orange;
+    color: #fff;
+  }
+  .topic{
+    font-size: 13px;
+
+  }
+}
