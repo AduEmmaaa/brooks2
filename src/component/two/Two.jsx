@@ -9,7 +9,7 @@ const Two = () => {
   const router = useRouter();
   return (
     <div className={styles.two}>
-      <div className={styles.first} onClick={() => router.push("/salon")}>
+      {/* <div className={styles.first} onClick={() => router.push("/salon")}>
         <div className={styles.img}>
           <Image
             src={
@@ -25,7 +25,7 @@ const Two = () => {
           Barbar salon <br />
           New Generation
         </h5>
-      </div>
+      </div> */}
       {/* <div className={styles.first} onClick={() => router.push("/rent")}>
         <div className={styles.img}>
           <Image
@@ -76,7 +76,7 @@ const Two = () => {
         <div className={styles.img}>
           <Image
             src={
-              "https://res.cloudinary.com/dzzmqi5hn/image/upload/v1731781897/WhatsApp_Image_2024-09-20_at_6.44.51_PM_q3yhdh.jpg"
+              "/income.jpg"
             }
             alt=""
             width={500}
@@ -86,7 +86,7 @@ const Two = () => {
         </div>
         <h5 className={styles.salon}>New Gene App</h5>
       </div>
-      <div className={styles.first} onClick={() => router.push("/water")}>
+      {/* <div className={styles.first} onClick={() => router.push("/water")}>
         <div className={styles.img}>
           <Image
             src={
@@ -99,7 +99,7 @@ const Two = () => {
           />
         </div>
         <h5 className={styles.salon}>MAAB Products</h5>
-      </div>
+      </div> */}
     </div>
   );
 };
