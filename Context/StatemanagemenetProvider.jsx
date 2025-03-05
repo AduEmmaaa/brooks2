@@ -25,7 +25,7 @@ const StatemanagementProvider = ({ children }) => {
   const getdaynumber = async () => {
     const res = await fetch("/api/daynumber");
     const result = await res.json();
-    setDaynumber(result?.msg[6].passcode);
+    setDaynumber(result?.msg[0].passcode);
   };
 
   const [monthnumber, setMonthnumber] = useState(3);
