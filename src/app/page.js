@@ -43,7 +43,7 @@ export default function Home() {
             <Sliderbox />
           </div> */}
 
-          <h4 className={styles.head}>All Your Needs, One App</h4>
+          <h4 className={styles.head}>BrookSCity</h4>
           <Two />
           {/* <Game />
           <Travel /> */}

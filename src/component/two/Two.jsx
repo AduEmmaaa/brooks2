@@ -84,7 +84,7 @@ const Two = () => {
             className={styles.barbarimg}
           />
         </div>
-        <h5 className={styles.salon}>New Gene App</h5>
+        <h5 className={styles.salon}>BrooksCity</h5>
       </div>
       {/* <div className={styles.first} onClick={() => router.push("/water")}>
         <div className={styles.img}>
