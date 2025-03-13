@@ -121,7 +121,7 @@ const Page = () => {
         setMonthnumber={setMonthnumber}
         daynumber={daynumber}
       />
-      {login === 2580 && <Addincome type="shop1" />}
+      {login === 9994 && <Addincome type="shop1" />}
 
       <MoneyRow
         type="shop1"

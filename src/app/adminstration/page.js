@@ -26,7 +26,7 @@ const Page = () => {
       });
       const result = await res.json();
       setlogin(result?.msg.passcode);
-      if (result.msg?.passcode === 2580) {
+      if (result.msg?.passcode === 9994) {
         router.push("/adminstration/home/shop1");
       } else if (result.msg?.passcode === 19550) {
         router.push("/adminstration/home/shop2");
