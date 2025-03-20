@@ -87,7 +87,7 @@ const Table = ({
             )) ||
             (type != "clement" && (
               <>
-                {(login === 2580 && (
+                {(login === 9994 && (
                   <li className={styles.listitem1}>
                     <RiDeleteBin2Line />
                   </li>
@@ -112,7 +112,7 @@ const Table = ({
               allshop1.map((list, i) => {
                 return (
                   <ul className={styles.list1} key={i}>
-                    {(login ===2580  && (
+                    {(login === 9994 && (
                       <li
                         className={styles.listitem1}
                         onClick={() => handletableclick(list)}

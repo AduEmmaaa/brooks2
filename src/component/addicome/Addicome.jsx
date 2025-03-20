@@ -169,9 +169,9 @@ const Addicome = ({ type }) => {
           {(type === "shop1" && (
             <select name="" id="" className={styles.selectservice}>
               <option value="">person</option>
-              <option value="Clement">Clement</option>
-              <option value="Micheal">Micheal</option>
-              <option value="Kwame">Kwame</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="A">C</option>
             </select>
           )) ||
             (type === "shop2" && (

@@ -81,7 +81,7 @@ const MoneyRow = ({
           {(type === "shop1" && `${daynumber} /${monthnumber} / 2025`) ||
             (type === "shop2" && `${daynumber} /${monthnumber} / 2025`) ||
             (type === "shop3" && `${daynumber} /${monthnumber} / 2025`) ||
-            (type === "income1" && "New Generation") ||
+            (type === "income1" && "Brooks city") ||
             (type === "income2" && "Obeyeyie") ||
             (type === "income3" && "Manhia") ||
             (type === "Expense1" && "Cocoa Board Expenses") ||
@@ -148,9 +148,9 @@ const MoneyRow = ({
         >
           {" "}
           <h1 className={styles.moneycarhead}>
-            {(type === "shop1" && "Clement") ||
+            {(type === "shop1" && "A") ||
               (type === "shop2" && "Emma") ||
-              (type === "income1" && "Clement") ||
+              (type === "income1" && "A") ||
               (type === "income2" && "Emma") ||
               (type === "income3" && "seat 1") ||
               (type === "shop3" && "seat 1") ||
@@ -198,9 +198,9 @@ const MoneyRow = ({
         >
           {" "}
           <h1 className={styles.moneycarhead}>
-            {(type === "shop1" && "Micheal") ||
+            {(type === "shop1" && "B") ||
               (type === "shop2" && "Sammy") ||
-              (type === "income1" && "Micheal") ||
+              (type === "income1" && "B") ||
               (type === "income2" && "Sammy") ||
               (type === "income3" && "seat 2") ||
               (type === "shop3" && "seat 2") ||
@@ -246,9 +246,9 @@ const MoneyRow = ({
           onClick={handlesmallcardseat3}
         >
           <h1 className={styles.moneycarhead}>
-            {(type === "shop1" && "Kwame") ||
+            {(type === "shop1" && "C") ||
               (type === "shop2" && "Sarfo") ||
-              (type === "income1" && "Seat 3") ||
+              (type === "income1" && "C") ||
               (type === "income2" && "Sarfo") ||
               (type === "income3" && "seat 3") ||
               (type === "shop3" && "seat 3") ||

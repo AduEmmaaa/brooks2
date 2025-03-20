@@ -56,7 +56,7 @@ const StatemanagementProvider = ({ children }) => {
     );
   }
   //daily seat1
-  const allclement = getPersonData(daynumber, "Clement");
+  const allclement = getPersonData(daynumber, "A");
   const allclementamount = allclement.reduce(
     (acc, curr) => acc + curr.amount,
     0
@@ -76,7 +76,7 @@ const StatemanagementProvider = ({ children }) => {
 
   //monthly clement & shop1
   const monthlyclement = allincome
-    .filter((item) => item.person === "Clement")
+    .filter((item) => item.person === "A")
     .reduce((acc, curr) => acc + curr.amount, 0);
 
   const monthlyclementseat1 = allincome
@@ -92,7 +92,7 @@ const StatemanagementProvider = ({ children }) => {
     (acc, curr) => acc + curr.amount,
     0
   );
-  const allmicheal = getPersonData(daynumber, "Micheal");
+  const allmicheal = getPersonData(daynumber, "B");
   const allmichealamount = allmicheal.reduce(
     (acc, curr) => acc + curr.amount,
     0
@@ -107,7 +107,7 @@ const StatemanagementProvider = ({ children }) => {
 
   //monthly micheal and seat2
   const monthlymicheal = allincome
-    .filter((item) => item.person === "Micheal")
+    .filter((item) => item.person === "B")
     .reduce((acc, curr) => acc + curr.amount, 0);
   const monthlyseat2micheal = allincome
     .filter((item) => item.person === "Sammy")
@@ -117,10 +117,10 @@ const StatemanagementProvider = ({ children }) => {
     .reduce((acc, curr) => acc + curr.amount, 0);
 
   //daily
-  const allsarfo = getPersonData(daynumber, "Kwame");
+  const allsarfo = getPersonData(daynumber, "C");
   const allsarfoamount = allsarfo.reduce((acc, curr) => acc + curr.amount, 0);
   //daily shop2
-  const allsarfoseat2 = getPersonData(daynumber, "Miracle");
+  const allsarfoseat2 = getPersonData(daynumber, "B");
   const allsarfoamountseat2 = allsarfoseat2.reduce(
     (acc, curr) => acc + curr.amount,
     0
@@ -133,7 +133,7 @@ const StatemanagementProvider = ({ children }) => {
   );
   //monthly monthly sarfo
   const monthlysarfo = allincome
-    .filter((item) => item.person === "Kwame")
+    .filter((item) => item.person === "C")
     .reduce((acc, curr) => acc + curr.amount, 0);
   const monthlysarfoseat2 = allincome
     .filter((item) => item.person === "Miracle")

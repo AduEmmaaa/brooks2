@@ -8,7 +8,6 @@ export async function POST(request, { params }) {
 
 
 
-console.log({monthnumber,daynumber,time,amount,person ,service})
 
   if (!time || !service || !amount ||!daynumber ) {
     return NextResponse.json({ success: false, msg: "Time is require" });
