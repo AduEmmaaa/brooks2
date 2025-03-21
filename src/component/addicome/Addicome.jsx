@@ -27,27 +27,26 @@ const Addicome = ({ type }) => {
     setAmount(15);
   } else if (service === "Kid+dye") {
     setAmount(20);
-  } else if (service === "Kid+dye+wash") {
-    setAmount(25);
-  } else if (service === "Adult") {
+  }  else if (service === "Adult") {
     setAmount(20);
   } else if (service === "Adult+dye") {
-    setAmount(30);
-  } else if (service === "Adult+dye+wash") {
-    setAmount(35);
+    setAmount(25);
   } else if (service === "Shaving") {
-    setAmount(10);
-  } else if (service === "Trimming") {
-    setAmount(10);
-  } else if (service === "Permcut") {
+    setAmount(15);
+  }  else if (service === "Permcut") {
     setAmount(50);
   } else if (service === "Permcut+blowing") {
     setAmount(70);
   } else if (service === "Black dye only") {
-    setAmount(15);
-  } else if (service === "Coloured dye only") {
+    setAmount(10);
+  } 
+  else if (service === "Coloured dye only") {
     setAmount(30);
-  } else if (service === "washing+waving") {
+  }
+  else if (service === "Twist") {
+    setAmount(30);
+  }
+   else if (service === "washing+waving") {
     setAmount(50);
   }
 
@@ -144,12 +143,10 @@ const Addicome = ({ type }) => {
                 <option value="">Service</option>
                 <option value="Kid">Kid (GH 15)</option>
                 <option value="Kid+dye">Kid+dye (GH 20)</option>
-                <option value="Kid+dye+wash">Kid+dye+wash (GH 25)</option>
                 <option value="Adult">Adult (GH 20)</option>
                 <option value="Adult+dye">Adult+dye (GH 30)</option>
-                <option value="Adult+dye+wash">Adult+dye+wash (GH 35) </option>
                 <option value="Shaving">Shaving (GH 10)</option>
-                <option value="Trimming">Trimming (GH 10)</option>
+                <option value="Twist">Twist (GH 30)</option>
                 <option value="Permcut">Permcut (GH 50)</option>
                 <option value="Permcut+blowing">Permcut+blowing (GH 70)</option>
                 <option value="Black dye only">Black dye only (GH 15)</option>
