@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import moment from "moment";
 
 const { Statemanagement } = require("./Statemanagement");
 
@@ -21,16 +22,18 @@ const StatemanagementProvider = ({ children }) => {
   const [time, setTime] = useState("");
   const [amount, setAmount] = useState();
 
-  //month number
   const getdaynumber = async () => {
-    const res = await fetch("/api/daynumber");
-    const result = await res.json();
-    setDaynumber(result?.msg[0].passcode);
+    if (!monthnumber) { // Only set if it's not already set
+      const currentDate = moment();
+      setMonthnumber(parseInt(currentDate.format("M"), 10));
+    }
+  
+    const currentDate = moment();
+    setDaynumber(parseInt(currentDate.format("D"), 10));
   };
-
-  const [monthnumber, setMonthnumber] = useState(4);
-  const [daynumber, setDaynumber] = useState();
-
+    const [monthnumber, setMonthnumber] = useState();
+    const [daynumber, setDaynumber] = useState();
+  
   //table
   const [allincome, setAllincome] = useState([]);
   const [allsuccess, setAllsuccess] = useState([]);
@@ -45,8 +48,9 @@ const StatemanagementProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    getallincome();
-    getdaynumber();
+   
+    getdaynumber().then(() => getallincome());
+
   }, [monthnumber]);
 
   // function for all about shop1
