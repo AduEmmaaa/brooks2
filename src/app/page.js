@@ -24,7 +24,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   //state from context
-  const { opensidebar, daynumber, setDaynumber } = useContext(Statemanagement);
+  const { opensidebar, daynumber, setDaynumber,monthnumber } = useContext(Statemanagement);
   return (
     <>
       <div className={styles.newbody}>
@@ -36,7 +36,7 @@ export default function Home() {
           <FaWhatsapp className={styles.whatsappicon} />
         </div>
         <div className={styles.time}>
-          <h5>Today ,January {daynumber}</h5>
+          <h5>Today /{monthnumber} / {daynumber}</h5>
         </div>
         <div className={styles.down}>
           {/* <div className={styles.one}>
