@@ -1,4 +1,185 @@
-@media screen and (max-width: 768px) {
+.monthname {
+  display: flex;
+  justify-content: center;
+  gap:25px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom:-20px;
+}
+
+
+
+.down {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.weekHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekday {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  font-size: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  width: 100%;
+}
+
+.calendarCell {
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.calendarCell:hover {
+  background: #f9f9f9;
+}
+
+
+
+
+
+.monthnameletter {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.arrow {
+  font-size: 30px;
+  cursor: pointer;
+  color:orange;
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+.listitem {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  padding: 8px;
+}
+
+.listitems {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex: 1;
+  text-align: center;
+  color: #333;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px;
+}
+
+.listitems:hover {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+.active {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+border:1px solid red;
+  flex: 1;
+  text-align: center;
+  color: #333;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px;
+  background:red;
+  color:white;
+}
+
+/* income.module.css */
+ .incomewrapper {
+    width: 100%;
+    height: max-content;
+  }
+  .verytop {
+    width: 100%;
+    height: 50px;
+    background: orange;
+  }
+  .verytop2 {
+    width: 100%;
+    height: 50px;
+    background: #04255e;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+    .incomediv {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #04255e;
+    padding: 10px;
+  }
+
+  .top {
+    background: red;
+    width: 100%;
+    height: 30px;
+  }
+
+  /* want to delete */
+  @media screen and (max-width: 768px) {
   .incomewrapper {
     width: 100%;
     height: max-content;
@@ -38,83 +219,11 @@
     width: 100%;
     height: 30px;
   }
-  .card {
-    width: 100%;
-    height: max-content;
-    padding: 2px 10px;
-  }
-  .row {
-    border-bottom: 1px solid #cccccc81;
-  }
-  .ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2px;
-  }
-  .listitem {
-    border-right: 1px solid #ccccccd3;
-    width: 60px;
-    text-align: center;
-    padding: 3px;
-    color: #04255e;
-    font-weight: bold;
-    font-size: 1rem;
-    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
-  }
-  .listitems {
-    border-right: 1px solid #ccccccd3;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    padding: 3px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #04255eb6;
-    margin-bottom: 6px;
-    border-bottom: 1px solid;
-    /* -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849); */
-  }
-  .active {
-    border-right: 1px solid #ccccccd3;
-    width: 60px;
-    height: 25px;
-    text-align: center;
-    padding: 3px;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
-    background: red;
-    margin-bottom: 6px;
-    border-bottom: 1px solid;
-    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
-  }
-  .monthname {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 10px 0 10px;
-    gap: 20px;
-  }
-  .monthnameletter {
-    font-size: 16px;
-  }
-  .arrow {
-    font-size: 24px;
-    color: orange;
-    width: 50px;
-    height: 30px;
-  }
+  
   .rowmoney {
     width: 100%;
     height: max-content;
-    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+   
     background: #04255e1a;
     padding: 4px 0;
   }
@@ -128,8 +237,7 @@
   }
   .smallcard {
     margin-right: 3px;
-    -webkit-box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.68);
-    box-shadow: 0 1px 16px -8px rgba(0, 0, 0, 0.849);
+   
     width: 110px;
     min-width: max-content;
     text-align: center;
@@ -319,4 +427,3 @@
     color: blue;
   }
 }
-
